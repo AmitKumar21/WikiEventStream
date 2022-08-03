@@ -1,7 +1,6 @@
 # Spring Boot + Apache Kafka + JPA + JSON  
-
 # WikimediaEventStream
-----
+
 We can use Kafka when we have to move a large amount of data and process it in real-time. 
 In this application i have created two microservices springboot appliaction which will act as producing and consuming the real time data from https://stream.wikimedia.org/v2/stream/recentchange and parsing it in json format and then storing the relevant data into mysql database using Hibernate/JPA.
 -------------
