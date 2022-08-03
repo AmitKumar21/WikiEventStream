@@ -3,7 +3,6 @@
 
 We can use Kafka when we have to move a large amount of data and process it in real-time. 
 In this application i have created two microservices springboot appliaction which will act as producing and consuming the real time data from https://stream.wikimedia.org/v2/stream/recentchange and parsing it in json format and then storing the relevant data into mysql database using Hibernate/JPA.
--------------
 The data will be fetched by Kafka-producer microservice using the springboot event handler and gets stored inside the kafka topic.
 Here is the screenshot of kafka proudcer fetching the data in **real-time** and storing it in topic.
 
